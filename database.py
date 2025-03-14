@@ -1,6 +1,6 @@
-import sqlite3
+import 
 
-conn = sqlite3.connect("users.db")
+conn =.connect("users.db")
 cursor = conn.cursor()
 
 cursor.execute("""
